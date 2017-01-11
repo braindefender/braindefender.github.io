@@ -59,7 +59,33 @@
 
 			<main class="main">
 				<div class="container">
-					<h1 class="heading heading--page">Ooops! - Страница находится в разработке</h1>
+					<div class="contacts">
+						
+						<h1 class="contacts__heading">Есть вопросы, проекты или предложения?</h1>
+
+						<p class="contacts__desc">
+							Пишите на email: <b>braindefender@gmail.com</b>,<br>
+							или воспользуйтесь формой ниже
+						</p>
+						<div class="contacts__flex">
+							<form action="http://formspree.io/braindefender@gmail.com" method="post" class="contacts-form">
+								<div class="contacts-form__name">
+									<p>Имя:</p>
+									<input type="text" name="name" required>
+								</div>
+								<div class="contacts-form__name contacts-form__email">
+									<p>E-mail:</p>
+									<input type="email" name="email" required>
+								</div>
+								<div class="contacts-form__textarea">
+									<textarea required name="message" id="contacts-form__textarea" cols="30" rows="6"></textarea>
+								</div>
+								<button type="submit" class="contacts-form__button">Отправить</button>
+							</form>
+						</div>
+
+					</div>
+
 				</div>
 			</main>
 		
